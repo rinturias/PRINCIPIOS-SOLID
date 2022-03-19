@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Puchage.Technical.Evaluation.Application\Usuarios.Technical.Evaluation.Application.csproj" />
+    <ProjectReference Include="..\Puchage.Technical.Evaluation.infrastructure\Usuarios.Technical.Evaluation.infrastructure.csproj" />
+    <ProjectReference Include="..\Puchage.Technical.Evaluation.IoC\Usuarios.Technical.Evaluation.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
